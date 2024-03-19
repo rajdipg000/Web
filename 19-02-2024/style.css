@@ -1,1 +1,7 @@
-bg
+body{
+    background: aliceblue;
+}
+
+h1 {
+    background-color: floralwhite;
+}
