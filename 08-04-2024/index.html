@@ -11,15 +11,32 @@
         h1,h3 {
             text-align: center;
         }
+        nav {
+            display: flex;
+            gap: 1rem;
+            align-items: center;
+            justify-content: center;
+            background-color: aliceblue;
+            padding: 1rem;
+       
+        }
+        header {
+            top: 0;
+            position: sticky;         
+        }
     </style>
 </head>
-<body id="home">
-    <h1>Welcome</h1>
-    <div>
+
+<body>
+   <header>
+    <nav>   
         <a href="#home">Home</a> <br>
         <a href="#courses">Courses</a> <br>
         <a href="#about">About</a>
-    </div>
+    </nav>
+   </header>
+    <h1 id="home">Welcome</h1>
+
     <main id="courses">
         <h3>Courses</h3>
         <table>
