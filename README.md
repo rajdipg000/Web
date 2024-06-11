@@ -1,4 +1,4 @@
-# Lab Class Code Repository
+<!-- # Lab Class Code Repository
 
 Welcome to the Lab Class Code Repository! This repository contains the code examples and exercises covered in the lab sessions of the subject Web Design with HTML, CSS, JavaScript.
 
@@ -23,4 +23,4 @@ git clone https://github.com/ifarhatdev/Web.git
 - <a href="https://www.instagram.com/raan_farhat" target="_blank">Instagram</a>
 - <a href="https://ifarhat.pages.dev" target="_blank">Portfolio Website</a>
 
-© 2024 I Farhat. All Rights Reserved.
+© 2024 I Farhat. All Rights Reserved. -->
