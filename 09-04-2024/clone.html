@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--Centered Without CSS-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <center>
+    <pre >Hi there!
+        Below is a form (this text written in pre tag)
+    </pre>
+    <h1 >Contact us</h1>
+    <form action="#" >
+        <div   >
+            <div  >
+                <label for="name">Name:*</label>
+                <input type="text" name="name" id="name" placeholder="Your name here..." required>
+           </div>
+           <div  >
+                <label for="gender">Gender:*</label>
+                <span> Male 
+                    <input type="radio" name="gender" id="gender" value="male"  required>
+                </span>
+                <span> Female 
+                    <input type="radio" name="gender" id="gender" value="female" required>
+                </span>
+                <span> Other 
+                    <input type="radio" name="gender" id="gender" value="other" required>
+                </span>
+            </div>
+           <div  >
+                <label for="phone">Email: </label>
+                <input type="email" name="email" id="email" placeholder="example@mail.com" >      
+           </div>  
+           <div  >
+                <label for="phone">Phone (+91):*</label>
+                <input type="tel" name="phone" id="phone" placeholder="Your mobile number" maxlength="10" required>
+           </div>
+           <div  >
+            <label for="city">City*</label>
+            <select name="city" id="city" required>
+                <option value="">Please choose an option</option>
+                <option value="Kolkata">Kolkata</option>
+                <option value="Mumbai">Mumbai</option>
+                <option value="Other">Other</option>
+            </select>
+       </div>
+           <div  >
+                <button type="submit">Submit Form to Cloud &#9729;</button>
+                <button type="reset">Reset Form <strong>&#8634</strong></button>
+        </div>
+        </div>
+
+    </form>
+</center>
+</body>
+</html>
